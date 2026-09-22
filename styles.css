@@ -158,3 +158,16 @@ body{background:var(--ivory);color:var(--ink)}
 
 /* Public-site overrides */
 .site-header nav a{color:#1f2a30!important}.site-header nav a:hover,.site-header nav a:focus-visible{color:#9f3b31!important}
+
+/* Mobile navigation contrast fix */
+@media (max-width: 768px) {
+  header nav a,
+  header a {
+    color: #1F2A30 !important;
+  }
+
+  header nav a:hover,
+  header a:hover {
+    color: #C85D4A !important;
+  }
+}
